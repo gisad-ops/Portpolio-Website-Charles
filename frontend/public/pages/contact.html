@@ -37,7 +37,9 @@
                     I'd love to hear from you! Whether you have a project in mind or just want to chat about web development, feel free to reach out.
                 </p>
                 
-                <form id="contact-form" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+                <form action="https://api.web3forms.com/submit" method="POST" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+                    <input type="hidden" name="access_key" value="279e72f9-346d-4628-a32b-10af97486f8c">
+                    <input type="hidden" name="subject" value="New portfolio contact message">
                     <div style="width: 100%;">
                         <input id="name" name="name" type="text" placeholder="Your Name" required style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--glass-border); border-radius: 9999px; background: var(--glass-bg); color: var(--text-color); font-family: var(--font-body);">
                     </div>
@@ -51,7 +53,6 @@
                         Send Message
                         <i class="ti ti-send" style="margin-left: 0.5rem;"></i>
                     </button>
-                    <p id="form-status" aria-live="polite" style="min-height: 1.5rem; color: var(--text-muted);"></p>
                 </form>
 
                 <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--glass-border);">
@@ -70,7 +71,6 @@
     </main>
 
     <script src="../../src/theme.js"></script>
-    <script src="../../src/contact.js"></script>
 </body>
 
 </html>
