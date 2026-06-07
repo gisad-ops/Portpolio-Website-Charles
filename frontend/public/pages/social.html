@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont/tabler-icons.min.css">
+    <link rel="stylesheet" href="../../styles/Home.css">
+    <title>Charles Aivan Dasig | Social</title>
+</head>
+
+<body>
+
+    <nav class="floating-nav">
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="social.html" class="active">Social</a>
+            <button class="theme-toggle-btn" onclick="darkBtn()">
+                <i class="ti ti-moon"></i>
+            </button>
+        </div>
+        <div class="nav-divider"></div>
+        <a href="contact.html" class="nav-contact-btn">
+            Contact
+            <i class="ti ti-arrow-right"></i>
+        </a>
+    </nav>
+
+    <main class="bento-container" style="padding-top: 10rem;">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div class="bento-cell glass simple-shadow" style="padding: 3rem; border-radius: var(--border-radius); text-align: center; margin-bottom: 2rem;">
+                <h1 class="hero-heading" style="margin-bottom: 1rem;">Connect With Me</h1>
+                <p class="hero-description">
+                    Follow my journey and stay updated on my latest projects and insights in web development.
+                </p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+                
+                <a href="https://github.com" target="_blank" class="bento-cell glass simple-shadow" style="padding: 2rem; text-align: center; text-decoration: none; color: var(--text-color); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; border-radius: var(--border-radius); transition: all 0.3s ease;">
+                    <div style="font-size: 3rem; color: var(--accent-color);">
+                        <i class="ti ti-brand-github"></i>
+                    </div>
+                    <div>
+                        <h3 style="font-family: var(--font-heading); margin-bottom: 0.5rem;">GitHub</h3>
+                        <p style="color: var(--text-muted); font-size: 0.875rem;">Check out my code</p>
+                    </div>
+                </a>
+
+                <a href="https://linkedin.com" target="_blank" class="bento-cell glass simple-shadow" style="padding: 2rem; text-align: center; text-decoration: none; color: var(--text-color); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; border-radius: var(--border-radius); transition: all 0.3s ease;">
+                    <div style="font-size: 3rem; color: var(--accent-color);">
+                        <i class="ti ti-brand-linkedin"></i>
+                    </div>
+                    <div>
+                        <h3 style="font-family: var(--font-heading); margin-bottom: 0.5rem;">LinkedIn</h3>
+                        <p style="color: var(--text-muted); font-size: 0.875rem;">Professional profile</p>
+                    </div>
+                </a>
+
+                <a href="https://twitter.com" target="_blank" class="bento-cell glass simple-shadow" style="padding: 2rem; text-align: center; text-decoration: none; color: var(--text-color); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; border-radius: var(--border-radius); transition: all 0.3s ease;">
+                    <div style="font-size: 3rem; color: var(--accent-color);">
+                        <i class="ti ti-brand-twitter"></i>
+                    </div>
+                    <div>
+                        <h3 style="font-family: var(--font-heading); margin-bottom: 0.5rem;">Twitter</h3>
+                        <p style="color: var(--text-muted); font-size: 0.875rem;">Latest thoughts</p>
+                    </div>
+                </a>
+
+                <a href="mailto:charles@example.com" class="bento-cell glass simple-shadow" style="padding: 2rem; text-align: center; text-decoration: none; color: var(--text-color); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; border-radius: var(--border-radius); transition: all 0.3s ease;">
+                    <div style="font-size: 3rem; color: var(--accent-color);">
+                        <i class="ti ti-mail"></i>
+                    </div>
+                    <div>
+                        <h3 style="font-family: var(--font-heading); margin-bottom: 0.5rem;">Email</h3>
+                        <p style="color: var(--text-muted); font-size: 0.875rem;">Send me a message</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="../../src/theme.js"></script>
+</body>
+
+</html>

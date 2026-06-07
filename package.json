@@ -1,0 +1,29 @@
+{
+  "name": "charles-portfolio",
+  "version": "1.0.0",
+  "description": "Charles Aivan Dasig - Portfolio Website with modern design",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "serve": "python -m http.server 8000 --directory frontend/public"
+  },
+  "keywords": [
+    "portfolio",
+    "web-developer",
+    "front-end",
+    "back-end",
+    "cybersecurity"
+  ],
+  "author": "Charles Aivan Dasig",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.22.2",
+    "mongoose": "^8.4.0"
+  }
+}

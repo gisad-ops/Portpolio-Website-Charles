@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont/tabler-icons.min.css">
+    <link rel="stylesheet" href="style/Home.css">
+    <title>Charles Aivan Dasig | Portfolio</title>
+</head>
+
+<body>
+
+    <nav class="floating-nav">
+        <div class="nav-links">
+            <a href="Home.html" class="active">Home</a>
+            <a href="navbar/About.html">About</a>
+            <a href="navbar/Skills.html">Skills</a>
+            <a href="navbar/Projects.html">Projects</a>
+            <a href="navbar/Social.html">Social</a>
+            <button class="theme-toggle-btn" onclick="darkBtn()">
+                <i class="ti ti-moon"></i>
+            </button>
+        </div>
+        <div class="nav-divider"></div>
+        <a href="navbar/Contact.html" class="nav-contact-btn">
+            Contact
+            <i class="ti ti-arrow-right"></i>
+        </a>
+    </nav>
+
+    <main class="bento-container">
+        <div class="bento-grid">
+            
+            <!-- Cell 1: Welcome Hero Card -->
+            <div class="bento-cell glass simple-shadow cell-hero">
+                <div class="glow-orb-orange"></div>
+                <div class="glow-orb-dark"></div>
+
+                <div>
+                    <div class="hero-status">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Available for new projects</span>
+                    </div>
+                    <h1 class="hero-heading">
+                        Hi, I'm <br>
+                        <span class="highlight">Charles Aivan Dasig</span>
+                    </h1>
+                    <p class="hero-description">
+                        A Dedicated Web Developer crafting seamless digital experiences with knowledge in Front-end, Back-end, and Cybersecurity.
+                    </p>
+                </div>
+
+                <div class="hero-footer">
+                    <button class="btn-primary" onclick="window.location.href='navbar/Projects.html'">
+                        View My Work
+                        <i class="ti ti-arrow-narrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Cell 2: Profile Image Card -->
+            <div class="bento-cell simple-shadow cell-profile">
+                <img src="owltilt.jpg" alt="Charles Aivan Dasig" class="profile-img">
+                <div class="profile-overlay">
+                    <div class="overlay-content">
+                        <p>Based in Philippines</p>
+                        <h3>Charles Aivan Dasig</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cell 3: Solutions and Skills Card -->
+            <div class="bento-cell glass simple-shadow cell-solutions">
+                <div class="solutions-content">
+                    <h3 class="solutions-title">
+                        <i class="ti ti-briefcase"></i>
+                        Full-Stack Solutions & Security
+                    </h3>
+                    <p class="solutions-desc">
+                        Active in building robust, scalable applications with a security-first mindset. Ready with knowledge in <span class="bold">React</span>, <span class="bold">Node.js</span>, and <span class="bold">Cybersecurity protocols</span> like OTP, protect account systems, and Authentication.
+                    </p>
+                </div>
+                
+                <div class="solutions-badges">
+                    <div class="badge-item">
+                        <div class="badge-icon">
+                            <i class="ti ti-brand-react"></i>
+                        </div>
+                        <span class="badge-label">Front-end</span>
+                    </div>
+                    <div class="badge-item">
+                        <div class="badge-icon">
+                            <i class="ti ti-database"></i>
+                        </div>
+                        <span class="badge-label">Back-end</span>
+                    </div>
+                    <div class="badge-item">
+                        <div class="badge-icon">
+                            <i class="ti ti-shield-check"></i>
+                        </div>
+                        <span class="badge-label">Security</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cell 4: Let's Connect Link Card -->
+            <a href="navbar/Contact.html" class="bento-cell cell-connect">
+                <div class="connect-icon">
+                    <i class="ti ti-mail"></i>
+                </div>
+                
+                <div class="connect-text">
+                    <p>Got a vision?</p>
+                    <h4>Let's <br>Connect.</h4>
+                </div>
+                
+                <div class="connect-footer">
+                    <span>Message Me</span>
+                    <div class="connect-arrow">
+                        <i class="ti ti-arrow-up-right"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </main>
+
+    <footer class="bento-footer">
+        <div class="footer-badge">
+            <span>&copy; 2026 Charles Aivan Dasig</span>
+            <span class="footer-divider"></span>
+            <span>Designed with Bento Style</span>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
